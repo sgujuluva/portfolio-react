@@ -28,5 +28,20 @@
 width:30%;
 height:40vh;
 margin: 20px 10px;
-border:2px solid blue;
+border:2px solid grey;
+border-radius: 20px;
+overflow: hidden;
+}
+.card .browser{
+    height:2rem;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+}
+.card .circle{
+width:10px;
+height:10px;
+background-color: white;
+border-radius: 50%;
+margin-left:1rem;
 }

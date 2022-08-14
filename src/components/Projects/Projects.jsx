@@ -13,11 +13,12 @@ function Projects() {
       </div>
       <div className="projects-list">
     <div className="card">
-        card
-        card
-        card
-        card
-        card
+        <div className="browser">
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+        </div>
+     
     </div>
       </div>
     </div>
