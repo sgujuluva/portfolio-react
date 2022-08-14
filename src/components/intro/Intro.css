@@ -4,7 +4,42 @@
 }
 .intro-left{
     flex:1;
+    padding:1rem;
 }
 .intro-right{
     flex:1;
+}
+.intro-title{
+    font-weight: 400;
+}
+.intro-name{
+    font-size: 2.5rem;
+}
+.my-title{
+    height:50px;
+    overflow: hidden;
+}
+.my-title-item{
+    height:50px; 
+    font-size: 1.7rem;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+}
+.my-title-wrapper{
+    height:100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move{
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+   
+    100%{
+        transform: translateY(-150px);
+    }
+    
 }
