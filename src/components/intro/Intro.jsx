@@ -13,21 +13,23 @@ function Intro() {
           <div className="my-title">
             <div className="my-title-wrapper">
               <div className="my-title-item">Web Developer</div>
+              <div className="my-title-item">Event Organiser</div>
               <div className="my-title-item">Passionate Cook</div>
               <div className="my-title-item">Gardener</div>
-              <div className="my-title-item">Event Organiser</div>
             </div>
           </div>
-          <div className="my-desc">
+          <p className="my-desc">
             I am new bee in developing websites and have been loving every
             minute of it. I am student in Digital Carrier Institute, Germany
             currently doing REACT and Node JS{" "}
-          </div>
+          </p>
         </div>
       </div>
       <div className="intro-right">
-       <div className="i-bg"></div>
-        <img src={Myfoto} alt="" />
+       <div className="i-bg">
+       <img src={Myfoto} alt="my foto" />
+       </div>
+       
       </div>
     </div>
   );
