@@ -4,7 +4,10 @@ import "./Intro.css";
 
 function Intro() {
   return (
-    <div>Intro</div>
+    <div className="intro-container">
+     <div className="intro-left">left</div>
+     <div className="intro-right">right</div>
+    </div>
   )
 }
 
