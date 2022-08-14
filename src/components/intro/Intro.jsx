@@ -14,8 +14,8 @@ function Intro() {
             <div className="my-title-wrapper">
               <div className="my-title-item">Web Developer</div>
               <div className="my-title-item">Event Organiser</div>
+              <div className="my-title-item">Nature Lover</div>
               <div className="my-title-item">Passionate Cook</div>
-              <div className="my-title-item">Gardener</div>
             </div>
           </div>
           <p className="my-desc">

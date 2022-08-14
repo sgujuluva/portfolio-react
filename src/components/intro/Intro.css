@@ -36,17 +36,23 @@
 }
 .my-title-item {
   height: 50px;
-  font-size: 1.7rem;
+  font-size: 2em;
   font-weight: bold;
   display: flex;
   align-items: center;
 }
 .my-title-wrapper {
+margin-left:15rem;
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
+  width:30rem;
 }
 .my-desc,.my-title{
     margin-top:2rem;
+    
+}
+.my-desc{
+  margin-left:3rem;
 }
 @keyframes move {
   25% {
