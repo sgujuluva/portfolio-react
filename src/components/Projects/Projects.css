@@ -1,13 +1,32 @@
 .project-header{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .project-text{
     margin-left:4rem;
 }
 .project-text h1{
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 .project-text p{
     font-size: 1.5rem;
+}
+
+/* card styling */
+.projects-list{
+   width:100%;
+    border:2px solid red;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.projects-list .card{
+width:30%;
+height:40vh;
+margin: 20px 10px;
+border:2px solid blue;
 }

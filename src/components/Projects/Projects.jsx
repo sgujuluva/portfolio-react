@@ -8,11 +8,17 @@ function Projects() {
       <div className="project-text">
         <h1 >My Projects</h1>
         <p >
-          Here are my Projects. Projects are done in HTML , CSS, DOM and REACT
+          Projects are done in HTML , CSS, DOM and REACT
         </p>
       </div>
       <div className="projects-list">
-
+    <div className="card">
+        card
+        card
+        card
+        card
+        card
+    </div>
       </div>
     </div>
   );
