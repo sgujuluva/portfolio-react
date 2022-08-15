@@ -1,8 +1,11 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 //styles
 import "./About.css";
 //image
-import Collage from "../../images/collage.png"
+import Collage from "../../images/collage.png";
+import RightArrow from "../../images/rightarrow.png";
+import LeftArrow from "../../images/leftarrow.png";
 
 function About() {
   return (
@@ -20,6 +23,12 @@ function About() {
             Team player, Easygoing, Easily adjustable to new environment.
             </p>
        </div>
+       <div className="arrow">
+       <Link to="/"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
+       <Link to="/Project"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
+       </div>
+      
+    
         </div>
   )
 }

@@ -2,10 +2,10 @@
   display: flex;
   height: 100vh;
   align-items: center;
+  position: relative;
 }
 .about-left,
 .about-right {
-   
   flex: 1;
 
   display: flex;
@@ -14,20 +14,29 @@
   align-items: center;
 }
 .about-right {
-    height:60%;
-   
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  height: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.about-right h1{
-font-size: 3rem;
+.about-right h1 {
+  font-size: 3rem;
 }
 .desc {
-    font-size: 1.4rem;
-    line-height: 4rem;
-    margin-left:10px;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  margin-left: 10px;
 }
 .about-left img {
   width: 80%;
+}
+.arrow {
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  position: absolute;
+  bottom: 1rem;
+  left: 40rem;
 }

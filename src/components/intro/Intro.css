@@ -112,7 +112,8 @@ a {
   justify-content: center;
   align-items: center;
 }
-.right-arrow {
+
+.right-arrow,.left-arrow {
 
   width:4rem;
   margin-top:2rem;
