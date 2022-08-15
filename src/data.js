@@ -1,6 +1,10 @@
 //images
 import WeatherImage from "./images/weather5.png"
-import eShop from "./images/shopping.png"
+import eShop from "./images/shopping.png";
+import FoodImage from "./images/food.png";
+import Todolist from "./images/todolist2.png";
+import Googlemaps from "./images/googlemaps.png";
+import CameraImage from "./images/camera.png";
 
 export const projects=[
     {
@@ -15,17 +19,22 @@ export const projects=[
     },
     {
         id:3,
-        img : {WeatherImage},
-        link: "https://github.com/sgujuluva/weather-app"
+        img : {FoodImage},
+        link: "https://github.com/sgujuluva/food-recipe-app"
     },
     {
         id:4,
-        img : {WeatherImage},
-        link: "https://github.com/sgujuluva/weather-app"
+        img : {Todolist},
+        link: "https://github.com/sgujuluva/to-do-list-DOM"
     },
     {
         id:5,
-        img : {WeatherImage},
-        link: "https://github.com/sgujuluva/weather-app"
+        img : {CameraImage},
+        link: "https://github.com/sgujuluva/camera-app-react"
+    },
+    {
+        id:6,
+        img : {Googlemaps},
+        link: "https://github.com/sgujuluva/camera-app-react"
     },
 ]
