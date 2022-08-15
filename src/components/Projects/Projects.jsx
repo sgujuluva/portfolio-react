@@ -1,8 +1,9 @@
 import React from "react";
 //styles
 import "./Projects.css";
-//images
-import WeatherImage from "../../images/weather5.png"
+//data import
+import ProjectData from "../../data";
+
 function Projects() {
   return (
     <div className="project-header">
@@ -20,9 +21,10 @@ function Projects() {
             <div className="circle"></div>
         </div>
      <div className="project-images">
-      <a href="https://github.com/sgujuluva/weather-app" target="_blank" rel="noreferrer">
+     {/*  <a href="https://github.com/sgujuluva/weather-app" target="_blank" rel="noreferrer">
         <img className="images" src={WeatherImage} alt="weather" />
-      </a>
+      </a> */}
+      {ProjectData.map(item => {item.link})}
      </div>
     </div>
       </div>

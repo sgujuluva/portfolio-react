@@ -6,35 +6,37 @@ import Todolist from "./images/todolist2.png";
 import Googlemaps from "./images/googlemaps.png";
 import CameraImage from "./images/camera.png";
 
-export const projects=[
+ const projects=[
     {
         id:1,
-        img : {WeatherImage},
+        img : "./images/weather5.png",
         link: "https://github.com/sgujuluva/weather-app"
     },
     {
         id:2,
-        img : {eShop },
+        img : "./images/shopping.png",
         link: "https://github.com/sgujuluva/ecommerce-shopping-react"
     },
     {
         id:3,
-        img : {FoodImage},
+        img : "./images/food.png",
         link: "https://github.com/sgujuluva/food-recipe-app"
     },
     {
         id:4,
-        img : {Todolist},
+        img : "./images/todolist2.png",
         link: "https://github.com/sgujuluva/to-do-list-DOM"
     },
     {
         id:5,
-        img : {CameraImage},
+        img : "./images/camera.png",
         link: "https://github.com/sgujuluva/camera-app-react"
     },
     {
         id:6,
-        img : {Googlemaps},
+        img : "./images/googlemaps.png",
         link: "https://github.com/sgujuluva/camera-app-react"
     },
 ]
+
+export default projects
