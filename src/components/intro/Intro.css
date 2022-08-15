@@ -39,6 +39,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 .intro-right {
   flex: 1;
@@ -46,7 +47,7 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
-}
+ }
 .intro-title {
   font-weight: 400;
 }
@@ -59,7 +60,7 @@ a {
 }
 .my-title-item {
   height: 50px;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -123,15 +124,39 @@ a {
 
 /* responsive mobile */
 @media only screen and (max-width:450px){
-  .intro-navbar{
-    border:2px solid red;
-    
-  }
-  .intro-navbar a{
+   .intro-navbar a{
     font-size: 0.75rem;
   }
   .intro-navbar img {
     height: 8rem;
     width: 25%;
+  }
+  .intro-name {
+    margin-top:1rem;
+    font-size: 1.2rem;
+    margin-left:1.2em;
+  }
+  .my-title-item {
+ 
+    font-size: 1.2rem;
+    font-weight: bold;
+  margin-left:3rem;
+  }
+  .my-desc {
+    width:25%;
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    line-height:1.5rem;
+  }
+  .i-bg img{
+
+    width:90vw;
+    height:30vh;
+    overflow: hidden;
+  }
+  .right-arrow,.left-arrow {
+
+    width:2.2rem;
+    
   }
 }
