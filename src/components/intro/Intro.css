@@ -120,3 +120,18 @@ a {
     bottom: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* responsive mobile */
+@media only screen and (max-width:450px){
+  .intro-navbar{
+    border:2px solid red;
+    
+  }
+  .intro-navbar a{
+    font-size: 0.75rem;
+  }
+  .intro-navbar img {
+    height: 8rem;
+    width: 25%;
+  }
+}
