@@ -1,0 +1,18 @@
+
+ .projects{
+    width:30%;
+    height:40vh;
+    margin: 20px 10px;
+    border:2px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    
+    .images{
+        width:100%;
+        height:100%;
+        /* transition: all 10s ease; */
+    }
+    /* .projects:hover .images{
+        transform:translateY(-100%);
+    } */

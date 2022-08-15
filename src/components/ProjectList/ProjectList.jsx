@@ -2,7 +2,7 @@ import React from "react";
 //styles
 import "./ProjectList.css";
 //components
-import Projects from "../Projects/Projects";
+import Project from "../Project/Project";
 //data import
 import { projects } from "../../data";
 
@@ -16,7 +16,7 @@ function ProjectList() {
         </p>
       </div>
       <div className="projects-list">
-        {projects.map(item =>(<Projects key={item.id} img={item.img} link={item.link} />))}
+        {projects.map(item =>(<Project key={item.id} img={item.img} link={item.link} />))}
       </div>
     </div>
   );

@@ -5,38 +5,43 @@ import FoodImage from "./images/food.png";
 import Todolist from "./images/todolist2.png";
 import Googlemaps from "./images/googlemaps.png";
 import CameraImage from "./images/camera.png";
+import BookSearch from "./images/booksearch.png"
 
- const projects=[
+ export const projects=[
     {
         id:1,
-        img : "./images/weather5.png",
+        img : WeatherImage,
         link: "https://github.com/sgujuluva/weather-app"
     },
     {
         id:2,
-        img : "./images/shopping.png",
+        img : eShop,
         link: "https://github.com/sgujuluva/ecommerce-shopping-react"
     },
     {
         id:3,
-        img : "./images/food.png",
+        img : FoodImage ,
         link: "https://github.com/sgujuluva/food-recipe-app"
     },
     {
         id:4,
-        img : "./images/todolist2.png",
+        img : Todolist,
         link: "https://github.com/sgujuluva/to-do-list-DOM"
     },
     {
         id:5,
-        img : "./images/camera.png",
+        img : CameraImage,
         link: "https://github.com/sgujuluva/camera-app-react"
     },
     {
         id:6,
-        img : "./images/googlemaps.png",
+        img :  Googlemaps ,
         link: "https://github.com/sgujuluva/camera-app-react"
+    },
+    {
+        id:6,
+        img :  BookSearch,
+        link: "https://github.com/sgujuluva/books-app"
     },
 ]
 
-export default projects
