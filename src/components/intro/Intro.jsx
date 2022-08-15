@@ -3,15 +3,17 @@ import React from "react";
 import "./Intro.css";
 //images
 import Myfoto from "../../images/foto1.png";
+//link
+import {Link} from "react-router-dom";
 function Intro() {
   return (
     <>
     <div className="intro-navbar">
-        <li>Intro</li>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <Link to="/">Intro</Link>
+        <Link to="/about">About Me</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/skills">Skills</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     <div className="intro-container">
       
