@@ -11,37 +11,44 @@ import BookSearch from "./images/booksearch.png"
     {
         id:1,
         img : WeatherImage,
-        link: "https://github.com/sgujuluva/weather-app"
+        link: "https://github.com/sgujuluva/weather-app",
+        title:"Weather App"
     },
     {
         id:2,
         img : eShop,
-        link: "https://github.com/sgujuluva/ecommerce-shopping-react"
+        link: "https://github.com/sgujuluva/ecommerce-shopping-react",
+        title:"eShopping App"
     },
     {
         id:3,
         img : FoodImage ,
-        link: "https://github.com/sgujuluva/food-recipe-app"
+        link: "https://github.com/sgujuluva/food-recipe-app",
+        title:"Food Recipe App"
     },
     {
         id:4,
         img : Todolist,
-        link: "https://github.com/sgujuluva/to-do-list-DOM"
+        link: "https://github.com/sgujuluva/to-do-list-DOM",
+        title:"To-Do-List App"
     },
     {
         id:5,
         img : CameraImage,
-        link: "https://github.com/sgujuluva/camera-app-react"
+        link: "https://github.com/sgujuluva/camera-app-react",
+        title: "Camera App"
     },
     {
         id:6,
         img :  Googlemaps ,
-        link: "https://github.com/sgujuluva/camera-app-react"
+        link: "https://github.com/sgujuluva/camera-app-react",
+        title:"Google Maps App"
     },
     {
-        id:6,
+        id:7,
         img :  BookSearch,
-        link: "https://github.com/sgujuluva/books-app"
+        link: "https://github.com/sgujuluva/books-app",
+        title: "Books Search App"
     },
 ]
 
