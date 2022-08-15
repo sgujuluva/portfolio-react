@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import Progressbar from "./Progressbar";
 //styles
 import "./Skills.css";
 //image
@@ -12,6 +13,13 @@ import ReactImg from "../../images/react.png";
 import Bootstrap from "../../images/bootstrap.png";
 import GitHub from "../../images/github.png";
 import MaterialUi from "../../images/material.png";
+
+/* const progressData = [
+  { bgcolor: "#6a1b9a", completed: 95 },
+  { bgcolor: "#00695c", completed: 90 },
+  { bgcolor: "#ef6c00", completed: 80 },
+  { bgcolor: "#ef6c00", completed: 90 },
+]; */
 
 function Skills() {
   return (
@@ -26,6 +34,13 @@ function Skills() {
         <img src={ Bootstrap} alt="bootstrap" />
         <img src={GitHub} alt="github" />
         <img src={MaterialUi} alt="material ui" />
+      </div>
+      <div className="technical-progressbar">
+        <h1>Technicall Skills Progress :</h1>
+        <div className="html">
+        <span>HTML</span> <Progressbar bgcolor="#6a1b9a" progress="95" height={20} />
+        </div>
+         
       </div>
       <div className="arrow">
        <Link to="/projects"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
