@@ -24,25 +24,33 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.projects-list .card{
-width:30%;
-height:40vh;
-margin: 20px 10px;
-border:2px solid grey;
-border-radius: 20px;
-overflow: hidden;
-}
-.card .browser{
-    height:2rem;
-    background-color: grey;
-    display:flex;
-    align-items: center;
-}
-.card .circle{
-width:10px;
-height:10px;
-background-color: white;
-border-radius: 50%;
-margin-left:1rem;
-}
+
  */
+ .projects{
+    width:30%;
+    height:40vh;
+    margin: 20px 10px;
+    border:2px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    }
+    .projects .browser{
+        height:2rem;
+        background-color: grey;
+        display:flex;
+        align-items: center;
+    }
+    .projects .circle{
+    width:10px;
+    height:10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:1rem;
+    }
+    .images{
+        width:100%;
+        transition: all 10s ease;
+    }
+    .projects:hover .images{
+        transform:translateY(-100%);
+    }
