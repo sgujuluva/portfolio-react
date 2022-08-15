@@ -1,0 +1,13 @@
+.contact{
+    height:100vh;
+}
+.contact-wrapper{
+    padding:3rem;
+    display:flex;    
+}
+.contact-left{
+    flex:1;
+}
+.contact-right{
+    flex:1;
+}
