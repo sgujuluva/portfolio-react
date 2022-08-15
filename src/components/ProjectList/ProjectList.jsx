@@ -24,7 +24,7 @@ function ProjectList() {
       </div>
       <div className="arrow">
        <Link to="/about"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
-       <Link to="/skill"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
+       <Link to="/skills"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
        </div>
     </div>
   );

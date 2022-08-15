@@ -1,10 +1,13 @@
 import React from "react";
+import {Link} from "react-router-dom";
 //styles
 import "./Contact.css";
 //images
 import Phone from "../../images/phone.png";
 import Email from "../../images/email.png";
 import Address from "../../images/address.png";
+import RightArrow from "../../images/rightarrow.png";
+import LeftArrow from "../../images/leftarrow.png";
 //hooks
 import { useRef } from "react";
 //emailjs
@@ -58,6 +61,10 @@ function Contact() {
           </form>
         </div>
       </div>
+      <div className="arrow">
+       <Link to="/skills"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
+       <Link to="/"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
+       </div>
     </div>
   );
 }
