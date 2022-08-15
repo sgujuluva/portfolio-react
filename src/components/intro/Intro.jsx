@@ -2,6 +2,7 @@ import React from "react";
 //style
 import "./Intro.css";
 //images
+import logo from "../../images/logo2.png";
 import Myfoto from "../../images/foto1.png";
 //link
 import {Link} from "react-router-dom";
@@ -9,9 +10,10 @@ function Intro() {
   return (
     <>
     <div className="intro-navbar">
+      <img src={logo} alt="logo" />
         <Link to="/">Intro</Link>
         <Link to="/about">About Me</Link>
-        <Link to="/projects">Projects</Link>
+        <Link to="/project">Projects</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/contact">Contact</Link>
       </div>
