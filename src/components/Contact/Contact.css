@@ -45,6 +45,7 @@
 }
 .contact-user-text{
     font-size: 2rem;
+    margin-bottom:2rem;
 }
 form{
     height:60%;
@@ -58,13 +59,15 @@ form{
     width:50%;
     height:7vh;
     font-size:1.2rem;
+    margin-bottom:2rem;
 }
 textarea{
     font-size:1.2rem;
 }
 .contact-right button{
+    margin-top:2rem;
     width:10rem;
-    height:2.2rem;
+    height:3rem;
     font-size:1.2rem;
     border-radius: 25px;
     border:none;
