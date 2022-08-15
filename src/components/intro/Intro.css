@@ -25,7 +25,7 @@ a {
   height: 100vh;
 }
 .intro-left-wrapper {
-  background-color: #d3d3d3;
+
   padding: 2rem;
   width: 50%;
   height: 100%;
@@ -117,6 +117,6 @@ a {
 
   width:4rem;
   margin-top:2rem;
-    bottom: 3rem;
+    bottom: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
