@@ -112,9 +112,10 @@ a {
   justify-content: center;
   align-items: center;
 }
-svg {
-  width: 10rem;
-  height: 3rem;
-  position: absolute;
-  bottom: 3rem;
+.right-arrow {
+
+  width:4rem;
+  margin-top:2rem;
+    bottom: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
