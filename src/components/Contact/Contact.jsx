@@ -7,10 +7,19 @@ import Email from "../../images/email.png";
 import Address from "../../images/address.png";
 //hooks
 import { useRef } from "react";
+//emailjs
+import emailjs from '@emailjs/browser';
+
 function Contact() {
   const formReference = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs.sendForm('service_rqkdiwt', 'template_cd2ccjh', formReference.current, 'zY9xHmTXG5anMPmsi')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
   return (
     <div className="contact">
