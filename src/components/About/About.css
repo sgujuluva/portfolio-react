@@ -31,11 +31,10 @@
 .about-left img {
   width: 80%;
 }
-.arrow {
+.about-container .arrow {
   width: 20rem;
   display: flex;
   justify-content: space-evenly;
-
   position: absolute;
   bottom: 1rem;
   left: 40rem;

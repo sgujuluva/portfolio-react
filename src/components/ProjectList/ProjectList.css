@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position:relative;
 }
 .project-text {
   margin-left: 4rem;
@@ -22,4 +23,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 2rem;
+}
+
+.project-header  .arrow {
+  width: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0.1rem;
+  left: 40rem;
 }
