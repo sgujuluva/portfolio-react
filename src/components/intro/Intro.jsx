@@ -37,12 +37,12 @@ function Intro() {
             minute of it. I am student in Digital Carrier Institute, Germany
             currently doing REACT and Node JS
           </p>
-         <img src={RightArrow} alt="right arrow" className="right-arrow" />
+          <Link to="/about"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
         </div>
       </div>
       <div className="intro-right">
         <div className="i-bg">
-          <img src={Myfoto} alt="my foto" />
+         <img src={Myfoto} alt="my foto" />
         </div>
       </div>
     </div>
