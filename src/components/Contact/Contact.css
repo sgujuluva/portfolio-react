@@ -11,3 +11,22 @@
 .contact-right{
     flex:1;
 }
+.contact-info{
+    height:40vh;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-info-icon{
+  
+    display:flex;
+    align-items: center;
+   font-size: 1.5rem;
+
+}
+.contact-info-icon img{
+    width:3rem;
+    height:3rem;
+    margin-right:1.2rem;
+}
