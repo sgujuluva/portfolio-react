@@ -24,16 +24,14 @@ function About() {
           I am intrested in learning, experimenting new things. <br />
           Team player, Easygoing, Easily adjustable to new environment.
         </p>
-      </div>
-      <div className="arrow">
-        <Link to="/">
-          
-          <img src={LeftArrow} alt="left arrow" className="left-arrow" />
-        </Link>
-        <Link to="/Project">
-         
-          <img src={RightArrow} alt="right arrow" className="right-arrow" />
-        </Link>
+        <div className="arrow">
+          <Link to="/">
+            <img src={LeftArrow} alt="left arrow" className="left-arrow" />
+          </Link>
+          <Link to="/Project">
+            <img src={RightArrow} alt="right arrow" className="right-arrow" />
+          </Link>
+        </div>
       </div>
     </div>
   );

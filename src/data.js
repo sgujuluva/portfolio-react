@@ -3,10 +3,10 @@ import WeatherImage from "./images/weather5.png"
 import eShop from "./images/shopping.png";
 import FoodImage from "./images/food.png";
 import Todolist from "./images/todolist2.png";
-import Googlemaps from "./images/googlemaps.png";
+import IndianPost from "./images/postal.png";
 import CameraImage from "./images/camera.png";
 import BookSearch from "./images/booksearch.png"
-
+import ImageCarousel from "./images/carousel.png"
  export const projects=[
     {
         id:1,
@@ -17,13 +17,13 @@ import BookSearch from "./images/booksearch.png"
     {
         id:2,
         img : eShop,
-        link: "https://github.com/sgujuluva/ecommerce-shopping-react",
+        link: "https://sgujuluva-eshop.vercel.app/",
         title:"eShopping App"
     },
     {
         id:3,
         img : FoodImage ,
-        link: "https://github.com/sgujuluva/food-recipe-app",
+        link: "https://sgujuluva-foodingredients-app.vercel.app/",
         title:"Food Recipe App"
     },
     {
@@ -40,15 +40,21 @@ import BookSearch from "./images/booksearch.png"
     },
     {
         id:6,
-        img :  Googlemaps ,
-        link: "https://github.com/sgujuluva/camera-app-react",
-        title:"Google Maps App"
+        img :  IndianPost,
+        link: "https://sgujuluva-indianpostal-app.vercel.app/",
+        title:"IndianPostal App"
     },
     {
         id:7,
         img :  BookSearch,
-        link: "https://github.com/sgujuluva/books-app",
+        link: "https://sgujuluva-books-app.vercel.app/",
         title: "Books Search App"
+    },
+    {
+        id:8,
+        img :  ImageCarousel,
+        link: "https://sgujuluva-image-carousel.vercel.app/",
+        title: "ImageCarousel"
     },
 ]
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 //styles
 import "./ProjectList.css";
 //components
@@ -20,12 +20,25 @@ function ProjectList() {
         </p>
       </div>
       <div className="projects-list">
-        {projects.map(item =>(<Project key={item.id} img={item.img} link={item.link} title={item.title} />))}
+        {projects.map((item) => (
+          <Project
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            title={item.title}
+          />
+        ))}
       </div>
       <div className="arrow">
-       <Link to="/about"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
-       <Link to="/skills"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
-       </div>
+        <Link to="/about">
+          {" "}
+          <img src={LeftArrow} alt="left arrow" className="left-arrow" />
+        </Link>
+        <Link to="/skills">
+          {" "}
+          <img src={RightArrow} alt="right arrow" className="right-arrow" />
+        </Link>
+      </div>
     </div>
   );
 }
