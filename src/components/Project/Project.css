@@ -1,11 +1,16 @@
 .projects {
   width: 30%;
-  height: 40vh;
+
   margin: 20px 10px;
   border: 2px solid grey;
   border-radius: 20px;
-  overflow: hidden;
+ padding:2%;
 }
+a{
+  position:relative;
+display:flex;
+height:90%;
+  }
 
 .images {
   width: 100%;
@@ -14,4 +19,11 @@
 }
 .projects:hover .images {
   transform: translateY(-5%);
+}
+
+@media only screen and (max-width:650px){
+  .projects {
+    width: 100%;
+   
+  }
 }

@@ -5,3 +5,9 @@
 .html{
     display:flex;
 }
+.technical-progressbar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

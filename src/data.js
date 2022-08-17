@@ -11,7 +11,7 @@ import BookSearch from "./images/booksearch.png"
     {
         id:1,
         img : WeatherImage,
-        link: "https://github.com/sgujuluva/weather-app",
+        link: "https://sangi-weather-app.vercel.app/",
         title:"Weather App"
     },
     {
