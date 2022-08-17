@@ -95,26 +95,13 @@ a {
   background-repeat: no-repeat;
   background-position: right;
   background-color: orange;
-  border: 1px red solid;
-}
+ }
 /*  clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 25% 100%, 0% 50%, 25% 0%); */
-/* .i-bg {
-  background-color: orange;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-end;
-  z-index: -1;
-} */
-/* .i-bg img {
-  width: 60%;
-  object-fit: contain;
-} */
+
 .right-arrow,
 .left-arrow {
   width: 40%;
   padding: 2%;
-  border: 2px red solid;
   margin-top: 15%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
