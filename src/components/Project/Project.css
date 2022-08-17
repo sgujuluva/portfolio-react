@@ -20,7 +20,10 @@ height:90%;
 .projects:hover .images {
   transform: translateY(-5%);
 }
-
+.projects p{
+  font-size: 2rem;
+  font-weight: 600;
+}
 @media only screen and (max-width:650px){
   .projects {
     width: 100%;

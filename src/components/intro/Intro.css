@@ -127,9 +127,9 @@ a {
 }
 .right-arrow,.left-arrow {
 
-  width:4rem;
+  width:3rem;
   margin-top:2rem;
-    bottom: 1rem;
+   
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -145,6 +145,10 @@ a {
     font-size: 1.5rem;
    }
    .my-title-item{
+    font-size: 1rem;
+   }
+   .my-desc{
+    width:100%;
     font-size: 1rem;
    }
 }
