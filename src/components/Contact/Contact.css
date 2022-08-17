@@ -1,90 +1,75 @@
-.contact{
-    position:relative;
-    height:100vh;
+.contact {
+  /*   position:relative;
+    height:100vh; */
+  display: flex;
+  flex-direction: column;
 }
-.contact-title h1{
-    font-size: 2.5rem;
-    text-align: center;
+.contact-title h1 {
+  font-size: 2.5rem;
+  text-align: center;
 }
-.contact-wrapper{
-    padding:3rem;
-    display:flex; 
-     text-align: center;   
+.contact-wrapper {
+  padding: 0.5%;
+  display: flex;
+  text-align: center;
 }
-.contact-left{
-    flex:1;
-   
+.contact-left {
+  flex: 1;
 }
-.contact-info h2{
-    font-size: 2rem;
-    font-weight: bolder;
+.contact-info h2 {
+  font-size: 2rem;
+  font-weight: bolder;
 }
-.contact-right{
-    flex:1;
+.contact-right {
+  width: 50%;
 }
-.contact-info{
-    height:40vh;
-    
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-}
-.contact-info-icon{
-  
-    display:flex;
-    align-items: center;
-   font-size: 1.5rem;
-   margin-left:3rem;
 
+.contact-info-icon {
+  line-height: 4rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 3rem;
 }
-.contact-info-icon img{
-    width:3rem;
-    height:3rem;
-    margin-right:1.2rem;
+.contact-info-icon img {
+  width: 2;
+  height: 2rem;
+  margin-right: 1.2rem;
 }
 /* right-side */
-.contact-right{
 
-    height:100vh;
+.contact-user-text {
+  font-size: 2rem;
+
+  font-weight: bolder;
+  margin-bottom: 2rem;
 }
-.contact-user-text{
-    font-size: 2rem;
- 
-    font-weight: bolder;
-    margin-bottom:2rem;
+form {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-form{
-    height:60%;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
-  
+.contact-right input {
+  width: 50%;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
-.contact-right input{
-    width:50%;
-    height:7vh;
-    font-size:1.2rem;
-    margin-bottom:2rem;
+textarea {
+  font-size: 1.2rem;
 }
-textarea{
-    font-size:1.2rem;
+.contact-right button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: none;
 }
-.contact-right button{
-    margin-top:2rem;
-    width:10rem;
-    height:3rem;
-    font-size:1.2rem;
-    border-radius: 25px;
-    border:none;
-}
-.contact .arrow{
-    position:absolute;
-    bottom:1rem;
-    width: 20rem;
-    display: flex;
-    justify-content: space-evenly;
-     left: 40rem;
-  
+.contact .arrow {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-left: 30%;
 }
