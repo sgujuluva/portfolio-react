@@ -8,13 +8,15 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 //styles
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
  
       <div className="App">
+        <Header/>
         <Routes>
-        <Route path="/" element={<Intro />}/>
+         <Route path="/" element={<Intro />}/> 
         <Route path="/about" element={<About />}/>
         <Route path="/project" element={<ProjectList />}/>
         <Route path="/skills" element={<Skills />}/> 

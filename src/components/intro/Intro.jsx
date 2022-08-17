@@ -10,15 +10,7 @@ import {Link} from "react-router-dom";
 function Intro() {
   return (
     <>
-    <div className="intro-navbar">
-      <img src={logo} alt="logo" />
-        <Link to="/">Intro</Link>
-        <Link to="/about">About Me</Link>
-        <Link to="/project">Projects</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/contact">Contact</Link>
-      </div>
-    <div className="intro-container">
+        <div className="intro-container">
       
       <div className="intro-left-wrapper">
         <div className="intro-left">

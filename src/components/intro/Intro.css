@@ -4,11 +4,18 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 12vh;
+
 }
-.intro-navbar img {
-  height: 12rem;
-  width: 15%;
+.intro-navbar span {
+  width: 10%;
+  height:70px;
+  border:2px solid red;
+}
+.intro-navbar span img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+ 
 }
 a {
   list-style: none;
@@ -22,7 +29,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+ 
 }
 .intro-left-wrapper {
 
@@ -105,9 +112,7 @@ a {
   clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
+  
   z-index: -1;
   display: flex;
   justify-content: center;
