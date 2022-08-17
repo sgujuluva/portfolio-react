@@ -90,7 +90,7 @@ a {
   /* height: 50vh; */
   padding: 25% 0;
   /*   object-fit: cover; */
-  background-image: url(../../images/foto1.png);
+  background-image: url(../../images/foto2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -105,7 +105,11 @@ a {
   margin-top: 15%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.intro-right .right-arrow{
+  margin-top:30%;
 
+border:2px solid red;
+}
 /* responsive mobile */
 @media only screen and (max-width: 700px) {
   .intro-navbar a {
