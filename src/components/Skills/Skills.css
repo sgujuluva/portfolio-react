@@ -20,12 +20,10 @@
   height: 10%;
 }
 .skills-container .arrow {
-  width: 20rem;
+  width: 20%;
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
-  bottom: 1rem;
-  left: 40rem;
+ margin-left: 40%;
 }
 .technical-progressbar {
   width: 100%;
