@@ -33,15 +33,22 @@ function Skills() {
       <div className="technical-progressbar">
         <h1>Technicall Skills Progress :</h1>
         <div className="html">
+          <div className="progress-skill">
           <span>HTML</span>{" "}
           <Progressbar bgcolor="	orange" progress="95" height={20} />
+          </div>
+          <div className="progress-skill">
           <span>CSS</span>{" "}
           <Progressbar bgcolor="orange" progress="85" height={20} />
-       
+          </div>
+          <div className="progress-skill">
         <span>Javascript</span>{" "}
         <Progressbar bgcolor="orange" progress="80" height={20} />
+        </div>
+        <div className="progress-skill">
         <span>REACT</span>{" "}
         <Progressbar bgcolor="orange" progress="90" height={20} />
+        </div>
         </div>
       </div>
       <div className="arrow">

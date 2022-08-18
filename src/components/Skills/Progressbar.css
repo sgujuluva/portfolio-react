@@ -1,13 +1,4 @@
-
-.parent{
-    margin-left: 4rem;
-}
-.html{
-    display:flex;
-}
-.technical-progressbar{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.parent {
+  margin-left: 4rem;
+  width: 50%;
 }
