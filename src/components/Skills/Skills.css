@@ -34,8 +34,11 @@
   flex-direction: column;
 
 }
+.technical-progressbar h1{
+  margin-bottom: 2%;
+}
 .html {
- 
+
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -43,11 +46,12 @@
 }
 .progress-skill {
   margin-bottom: 1%;
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .progress-skill span {
   font-weight: 700;
+  font-size: 1.2rem;
 } 
