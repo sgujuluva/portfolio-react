@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 4,
     img: Todolist,
-    link: "https://github.com/sgujuluva/to-do-list-DOM",
+    link: "https://sgujuluva.github.io/to-do-list-DOM/",
     title: "To-Do-List App",
   },
   {
