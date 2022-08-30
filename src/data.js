@@ -56,4 +56,11 @@ export const projects = [
     link: "https://sgujuluva-image-carousel.vercel.app/",
     title: "ImageCarousel",
   },
+  {
+    id: 9,
+    img: ImageCarousel,
+    link: "  https://sgujuluva-todolist-react.vercel.app/",
+    title: "To-do-list REACT",
+  },
+
 ];
