@@ -1,4 +1,5 @@
 //images
+import Netflix from "./images/netflix1.png";
 import WeatherImage from "./images/weather5.png";
 import eShop from "./images/shopping.png";
 import FoodImage from "./images/food.png";
@@ -13,7 +14,7 @@ export const projects = [
   
   {
     id: 1,
-    img: WeatherImage,
+    img: Netflix,
     link: "https://sgujuluva-netflix-clone-react.vercel.app",
     title: "Netflix-Clone React",
   },
