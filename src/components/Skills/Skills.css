@@ -3,11 +3,11 @@
   padding: 2%;
 }
 .skills-heading {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .skills-desc {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .skills-icons {
   padding: 3%;
@@ -27,16 +27,15 @@
 }
 .technical-progressbar {
   width: 100%;
-
   display: flex;
   flex-direction: column;
 
 }
 .technical-progressbar h1{
   margin-bottom: 2%;
+  font-size: 1.5rem;
 }
 .html {
-
   display: flex;
   flex-direction: column;
   width: 80%;
