@@ -51,6 +51,14 @@ function Skills() {
         <span>REACT</span>{" "}
         <Progressbar bgcolor="orange" progress="90" height={20} />
         </div>
+        <div className="progress-skill">
+        <span>Node Js</span>{" "}
+        <Progressbar bgcolor="orange" progress="80" height={20} />
+        </div>
+        <div className="progress-skill">
+        <span>Express Js</span>{" "}
+        <Progressbar bgcolor="orange" progress="80" height={20} />
+        </div>
         </div>
       </div>
       <div className="arrow">
