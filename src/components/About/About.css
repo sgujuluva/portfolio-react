@@ -14,6 +14,7 @@
   font-size: 2.5rem;
 }
 .desc {
+  margin-top:5%;
   font-size: 1.5rem;
   line-height: 3rem;
 }
@@ -21,6 +22,7 @@
   width: 100%;
 }
 .about-container .arrow {
+  margin-top:10%;
   width: 30%;
   display: flex;
   justify-content: space-evenly;
