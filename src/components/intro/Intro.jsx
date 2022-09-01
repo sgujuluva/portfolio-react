@@ -23,9 +23,7 @@ function Intro() {
               </div>
             </div>
             <p className="my-desc">
-              I am new bee in developing websites and have been loving every
-              minute of it. I am student in Digital Carrier Institute, Germany
-              currently doing REACT and Node JS
+            I am a enthusiastic MERN Stack web developer, who is about to graduate a one year Intensive Web Dev Training. I am seeking to obtain a creative and challenging position that utilizes current knowledge of web development and design. Having a positive outlook and am always willing to learn new traits. I work well both independently and as part of a team.
             </p>
             <Link to="/about">
               <img src={RightArrow} alt="right arrow" className="right-arrow" />
