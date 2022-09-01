@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 //styles
 import "./Contact.css";
 //images
@@ -11,18 +11,27 @@ import LeftArrow from "../../images/leftarrow.png";
 //hooks
 import { useRef } from "react";
 //emailjs
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const formReference = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_rqkdiwt', 'template_cd2ccjh', formReference.current, 'zY9xHmTXG5anMPmsi')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_rqkdiwt",
+        "template_cd2ccjh",
+        formReference.current,
+        "zY9xHmTXG5anMPmsi"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
   return (
     <div className="contact">
@@ -62,9 +71,13 @@ function Contact() {
         </div>
       </div>
       <div className="arrow">
-       <Link to="/skills"> <img src={LeftArrow} alt="left arrow" className="left-arrow" /></Link>
-       <Link to="/"> <img src={RightArrow} alt="right arrow" className="right-arrow" /></Link>
-       </div>
+        <Link to="/skills">
+          <img src={LeftArrow} alt="left arrow" className="left-arrow" />
+        </Link>
+        <Link to="/">
+          <img src={RightArrow} alt="right arrow" className="right-arrow" />
+        </Link>
+      </div>
     </div>
   );
 }

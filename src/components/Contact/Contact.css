@@ -1,11 +1,9 @@
 .contact {
-  /*   position:relative;
-    height:100vh; */
   display: flex;
   flex-direction: column;
 }
 .contact-title h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .contact-wrapper {
@@ -16,20 +14,29 @@
 .contact-left {
   flex: 1;
 }
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .contact-info h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
+  margin-bottom:5%;
 }
 .contact-right {
   width: 50%;
 }
 
 .contact-info-icon {
+  width:80%;
   line-height: 4rem;
   display: flex;
+
   align-items: center;
   font-size: 1.5rem;
-  margin-left: 3rem;
+ 
 }
 .contact-info-icon img {
   width: 2;
@@ -39,7 +46,7 @@
 /* right-side */
 
 .contact-user-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   font-weight: bolder;
   margin-bottom: 2rem;
@@ -51,25 +58,27 @@ form {
   justify-content: space-evenly;
 }
 .contact-right input {
+  padding:1%;
   width: 50%;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 textarea {
   font-size: 1.2rem;
+  padding:1%;
 }
 .contact-right button {
-  margin-top: 2rem;
   width: 10rem;
   height: 3rem;
   font-size: 1.2rem;
   border-radius: 25px;
   border: none;
+  padding:1%;
+  margin-top: 3%;
 }
 .contact .arrow {
   width: 30%;
   display: flex;
   justify-content: space-evenly;
-
   margin-left: 30%;
 }
