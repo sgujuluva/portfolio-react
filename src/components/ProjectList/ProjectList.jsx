@@ -35,8 +35,7 @@ function ProjectList() {
           <img src={LeftArrow} alt="left arrow" className="left-arrow" />
         </Link>
         <Link to="/skills">
-          {" "}
-          <img src={RightArrow} alt="right arrow" className="right-arrow" />
+        <img src={RightArrow} alt="right arrow" className="right-arrow" />
         </Link>
       </div>
     </div>
