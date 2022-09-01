@@ -19,7 +19,7 @@ function About() {
           My name is Sangeetha, located in Köln Germany. I have been graduated
           in 2004, India with bachelor's degree in Electronics and Communication
           Engineering. <br />
-          After encountering in various fields as a Teacher,Sales Manager,
+          After encountering in various fields as a Teacher,Sales Manager,Software Tester, Lecturer
           currently in my dream field Web Developing creating Websites. <br />
           I am intrested in learning, experimenting new things. <br />
           Team player, Easygoing, Easily adjustable to new environment.
