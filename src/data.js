@@ -2,6 +2,7 @@
 import Netflix from "./images/netflix1.png";
 import WeatherImage from "./images/weather5.png";
 import eShop from "./images/shopping.png";
+import eCommerce from "./images/ecommercepic.png"
 import FoodImage from "./images/food.png";
 import Todolist from "./images/todolist2.png";
 import IndianPost from "./images/postal.png";
@@ -72,5 +73,11 @@ export const projects = [
     link: "  https://sgujuluva-todolist-react.vercel.app/",
     title: "To-do-list REACT",
   },
+  /* {
+    id: 11,
+    img: eCommerce,
+    link: "https://sgujuluva-mern-ecommerce-v2-react.vercel.app",
+    title: "eCommerce Shopping MERN",
+  }, */
 
 ];
