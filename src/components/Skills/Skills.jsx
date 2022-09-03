@@ -14,7 +14,7 @@ import Bootstrap from "../../images/bootstrap.png";
 import GitHub from "../../images/github.png";
 import MaterialUi from "../../images/material.png";
 import Git from "../../images/git.png";
-import Mongodb from "../../images/mongo1.png";
+import Mongodb from "../../images/mongo2.png";
 
 function Skills() {
   return (
