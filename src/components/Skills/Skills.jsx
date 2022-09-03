@@ -14,6 +14,7 @@ import Bootstrap from "../../images/bootstrap.png";
 import GitHub from "../../images/github.png";
 import MaterialUi from "../../images/material.png";
 import Git from "../../images/git.png";
+import Mongodb from "../../images/mongo1.png";
 
 function Skills() {
   return (
@@ -31,6 +32,7 @@ function Skills() {
         <img src={GitHub} alt="github" />
         <img src={MaterialUi} alt="material ui" />
         <img src={Git} alt="git" />
+        <img src={Mongodb} alt="Mongo" />
       </div>
       <div className="technical-progressbar">
         <h1>Technicall Skills Progress :</h1>
