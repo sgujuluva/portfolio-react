@@ -5,10 +5,10 @@ import eShop from "./images/shopping.png";
 import YouTube from "./images/youtube1.png";
 import eCommerce from "./images/ecommercepic.png"
 import FoodImage from "./images/food.png";
-import Todolist from "./images/todolist2.png";
+import Todolist from "./images/todolist4.png";
 import IndianPost from "./images/postal.png";
-import CameraImage from "./images/camera.png";
-import BookSearch from "./images/booksearch1.png";
+import CameraImage from "./images/camera1.png";
+import BookSearch from "./images/booksearch5.png";
 import ImageCarousel from "./images/carousel.png";
 import TodolistReact from "./images/todoreact.png";
 
