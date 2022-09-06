@@ -40,8 +40,9 @@ function Contact() {
       </div>
       <div className="contact-wrapper">
         <div className="contact-left">
+        <h2> You can connect me @</h2>
           <div className="contact-info">
-            <h2> You can connect me @</h2>
+           
             <div className="contact-info-icon">
               <img src={Phone} alt="phone" />0 17634402690
             </div>
