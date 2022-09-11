@@ -2,6 +2,7 @@
 import Netflix from "./images/netflix1.png";
 import WeatherImage from "./images/weather5.png";
 import eShop from "./images/shopping.png";
+import NikeShoe from "./images/nike.png";
 import YouTube from "./images/youtube1.png";
 import eCommerce from "./images/ecommercepic.png"
 import FoodImage from "./images/food.png";
@@ -27,60 +28,66 @@ export const projects = [
   },
   {
     id: 3,
+    img: NikeShoe,
+    link: "https://sgujuluva-shoes-app-react.vercel.app/",
+    title: "Shoes App",
+  },
+  {
+    id: 4,
     img: WeatherImage,
     link: "https://sangi-weather-app.vercel.app/",
     title: "Weather App",
   },
   {
-    id: 4,
+    id: 5,
     img: eShop,
     link: "https://sgujuluva-eshop.vercel.app/",
     title: "eShopping App",
   },
   {
-    id: 5,
+    id: 6,
     img: FoodImage,
     link: "https://sgujuluva-foodingredients-app.vercel.app/",
     title: "Food Recipe App",
   },
   {
-    id: 6,
+    id: 7,
     img: Todolist,
     link: "https://sgujuluva.github.io/to-do-list-DOM/",
     title: "To-Do-List App",
   },
   {
-    id: 7,
+    id: 8,
     img: CameraImage,
     link: "https://sgujuluva-camera-app.vercel.app/",
     title: "Camera App",
   },
   {
-    id: 8,
+    id: 9,
     img: IndianPost,
     link: "https://sgujuluva-indianpostal-app.vercel.app/",
     title: "IndianPostal App",
   },
   {
-    id: 9,
+    id: 10,
     img: BookSearch,
     link: "https://sgujuluva-books-app.vercel.app/",
     title: "Books Search App",
   },
   {
-    id: 10,
+    id: 11,
     img: ImageCarousel,
     link: "https://sgujuluva-image-carousel.vercel.app/",
     title: "ImageCarousel",
   },
   {
-    id: 11,
+    id: 12,
     img: TodolistReact,
     link: "  https://sgujuluva-todolist-react.vercel.app/",
     title: "To-do-list REACT",
   },
   {
-    id: 12,
+    id: 13,
     img: YouTube,
     link: "https://sgujuluva.github.io/youtube-clone/",
     title: "eCommerce Shopping MERN",
