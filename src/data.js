@@ -30,7 +30,7 @@ export const projects = [
     id: 3,
     img: NikeShoe,
     link: "https://sgujuluva-shoes-app-react.vercel.app/",
-    title: "Shoes App",
+    title: "Nike Shoe - React App",
   },
   {
     id: 4,

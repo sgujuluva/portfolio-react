@@ -1,6 +1,6 @@
 ## My Portfolio
 
-**[Test this app yourself](will be there soon)**
+**[Test this app yourself](https://sgujuluva-portfolio-react.vercel.app/)**
 
 ---
 
