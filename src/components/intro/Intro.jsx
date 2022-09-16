@@ -2,7 +2,6 @@ import React from "react";
 //style
 import "./Intro.css";
 //images
-import Myfoto from "../../images/foto1.png";
 import RightArrow from "../../images/rightarrow.png";
 //link
 import { Link } from "react-router-dom";

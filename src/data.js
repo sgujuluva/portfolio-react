@@ -4,7 +4,7 @@ import WeatherImage from "./images/weather5.png";
 import eShop from "./images/shopping.png";
 import NikeShoe from "./images/nike.png";
 import YouTube from "./images/youtube1.png";
-import eCommerce from "./images/ecommercepic.png"
+import eCommerce from "./images/ecommerce.png"
 import FoodImage from "./images/food.png";
 import Todolist from "./images/todolist4.png";
 import IndianPost from "./images/postal.png";
