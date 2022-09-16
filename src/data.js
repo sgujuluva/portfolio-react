@@ -22,9 +22,9 @@ export const projects = [
   },  */
   {
     id: 2,
-    img: Netflix,
-    link: "https://sgujuluva-netflix-clone-react.vercel.app",
-    title: "Netflix-Clone React",
+    img: eShop,
+    link: "https://sgujuluva-eshop.vercel.app/",
+    title: "eShopping App",
   },
   {
     id: 3,
@@ -34,28 +34,30 @@ export const projects = [
   },
   {
     id: 4,
+    img: Netflix,
+    link: "https://sgujuluva-netflix-clone-react.vercel.app",
+    title: "Netflix-Clone HomePage React",
+  },
+  
+  {
+    id: 5,
     img: WeatherImage,
     link: "https://sangi-weather-app.vercel.app/",
     title: "Weather App",
   },
   {
-    id: 5,
-    img: eShop,
-    link: "https://sgujuluva-eshop.vercel.app/",
-    title: "eShopping App",
-  },
-  {
     id: 6,
-    img: FoodImage,
-    link: "https://sgujuluva-foodingredients-app.vercel.app/",
-    title: "Food Recipe App",
-  },
-  {
-    id: 7,
     img: Todolist,
     link: "https://sgujuluva.github.io/to-do-list-DOM/",
     title: "To-Do-List App",
   },
+  {
+    id: 7,
+    img: FoodImage,
+    link: "https://sgujuluva-foodingredients-app.vercel.app/",
+    title: "Food Recipe App",
+  },
+  
   {
     id: 8,
     img: CameraImage,
@@ -90,7 +92,7 @@ export const projects = [
     id: 13,
     img: YouTube,
     link: "https://sgujuluva.github.io/youtube-clone/",
-    title: "eCommerce Shopping MERN",
+    title: "Youtube-clone HomePage",
   },
   
   
