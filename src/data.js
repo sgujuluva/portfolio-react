@@ -3,7 +3,7 @@ import Netflix from "./images/netflix1.png";
 import WeatherImage from "./images/weather5.png";
 import eShop from "./images/shopping.png";
 import NikeShoe from "./images/nike.png";
-import YouTube from "./images/youtube2.png";
+import YouTube from "./images/youtube1.png";
 import eCommerce from "./images/ecommerce.png"
 import FoodImage from "./images/food.png";
 import Todolist from "./images/todolist4.png";
